@@ -71,14 +71,14 @@
         <main>
             <div class="section-content content-flex">
                 <div class="title">
-                    <h1>Windows Live Messenger now speaks Matrix</h1>              
+                    <h1>Windows Live Messenger now speaks Matrix</h1>
+                    <p>With the help of Tachyon, a small server running on your device, Windows Live Messenger can communicate using Matrix. No trickery involved, the old MSN you know and love has become a fully fledged Matrix client.</p>
                 </div>
                 <img src={screenshot} alt="screenshot" width="200px"/>
             </div>
         </main>
 
     </div>
-
 
     <div class="content content-dark">
         <aside class="adbar-left">
@@ -94,12 +94,79 @@
                
                 <img src={screenshot} alt="screenshot" width="200px"/>
                   <div class="title">
-                    <h1>Features</h1>              
+                    <h1>Talk with your real friends</h1>
+                    <p>Leverage the Matrix ecosystem to talk with your friends from all platforms. Self-host your server and bridges and show your Discord and Instagram friends what a messaging client that respects your privacy looks like.</p>
                 </div>
             </div>
         </main>
 
     </div>
+
+    <div class="content">
+        <aside class="adbar-left">
+            <div class="ad"></div>
+        </aside>
+
+        <aside class="adbar-right">
+            <div class="ad"></div>
+        </aside>
+
+        <main>
+            <div class="section-content content-flex">
+                <div class="title">
+                    <h1>Features</h1>
+                    <p>Windows Live Messenger has a lot of quirky features that give it charm. Nudges, Winks, Animated Display Pictures. They are not all usable as of <em>yet</em> but we want to support as much as we can down the line.</p>
+                </div>
+                <img src={screenshot} alt="screenshot" width="200px"/>
+            </div>
+        </main>
+
+    </div>
+
+        <div class="content content-dark">
+        <aside class="adbar-left">
+            <div class="ad"></div>
+        </aside>
+
+        <aside class="adbar-right">
+            <div class="ad"></div>
+        </aside>
+
+        <main>
+            <div class="section-content content-flex">
+               
+                  <div class="title">
+                    <h1>Install</h1>
+                    <p>Leverage the Matrix ecosystem to talk with your friends from all platforms. Self-host your server and bridges and show your Instagram contacts what a real secure messaging client looks like.</p>
+                </div>
+            </div>
+        </main>
+
+    </div>
+
+        <div class="content">
+        <aside class="adbar-left">
+            <div class="ad"></div>
+        </aside>
+
+        <aside class="adbar-right">
+            <div class="ad"></div>
+        </aside>
+
+        <main>
+            <div class="section-content content-flex">
+                <div class="title">
+                    <h1>Frequently Asked Questions</h1>
+                </div>
+            </div>
+        </main>
+
+    </div>
+
+    <footer>
+
+    </footer>
+
 </div>
 
 <style lang="css">
@@ -429,7 +496,6 @@
     }
 
     main {
-        min-height: 500px;
         grid-area: main;
         padding: 16px;
     }
@@ -453,14 +519,25 @@
         background-clip: text;
         color: white;
         font-size: 56pt;
-        font-family: 'Comic Sans MS';
+        font-family: 'Babylon5 Credits';
+    }
+
+    .section-content p {
+        margin-top: 48px;
+        margin-left: 4px;
+        width: 80%;
+    filter: drop-shadow(0 0 20px rgba(80, 180, 255, 0.6))
+            drop-shadow(0 2px 4px rgba(0, 30, 80, 0.5));
+
+        font-family: 'Babylon5 Credits';
     }
     
     .section-content .title {
-        max-width: 60%;
+        max-width: 70%;
     }
 
     .section-content {
+                min-height: 600px;
         padding: 32px;
 
     }
